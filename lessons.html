@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI觉醒 极致效能 - 企业AI落地实战营</title>
+    <style>
+        /* 全局基础设定：纯白背景，黑白灰字体，极简高级 */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            font-family: 'PingFang SC', 'Helvetica Neue', 'Microsoft YaHei', sans-serif;
+            color: #333333;
+            -webkit-font-smoothing: antialiased;
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 80px 20px 100px;
+        }
+
+        /* ================= 顶部标题区 ================= */
+        .header-section {
+            text-align: center;
+            margin-bottom: 70px;
+        }
+
+        .logos {
+            font-size: 0.85rem;
+            color: #999999;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+
+        .main-title {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #111111;
+            letter-spacing: 4px;
+            margin: 0 0 15px 0;
+        }
+
+        .sub-title {
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: #333333;
+            letter-spacing: 2px;
+            margin: 0 0 20px 0;
+        }
+
+        .date-location {
+            font-size: 1rem;
+            color: #777777;
+            letter-spacing: 1px;
+        }
+
+        /* ================= 课程安排大标题 ================= */
+        .section-heading {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #111111;
+            letter-spacing: 3px;
+            margin-bottom: 60px;
+        }
+
+        /* ================= 每日课程内容区 ================= */
+        .day-block {
+            margin-bottom: 55px;
+            padding-bottom: 40px;
+            /* 使用极细的浅灰线条作为不同天数之间的唯一简单区分 */
+            border-bottom: 1px solid #f0f0f0; 
+        }
+
+        .day-block:last-of-type {
+            border-bottom: none;
+            margin-bottom: 20px;
+        }
+
+        .day-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #111111;
+            margin: 0 0 25px 0;
+            letter-spacing: 1px;
+        }
+
+        /* 列表样式：无边框，纯文字+自定义优雅圆点 */
+        .course-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .course-list li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 12px;
+            color: #555555;
+            font-size: 1.05rem;
+        }
+
+        /* 自定义灰色小圆点 */
+        .course-list li::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 12px;
+            width: 5px;
+            height: 5px;
+            background-color: #cccccc;
+            border-radius: 50%;
+        }
+
+        /* 针对图片中第一天的第二个小分组，去掉边框，只用简单的上边距区分 */
+        .sub-group {
+            margin-top: 25px;
+            padding-top: 25px;
+            border-top: 1px dashed #f5f5f5; /* 极浅的虚线，保持极简但不突兀 */
+        }
+
+        /* ================= 底部文案 ================= */
+        .footer-quote {
+            text-align: center;
+            margin-top: 80px;
+            padding-top: 40px;
+            border-top: 1px solid #f0f0f0;
+        }
+
+        .footer-quote p {
+            font-size: 1.1rem;
+            color: #888888;
+            letter-spacing: 2px;
+            margin: 0;
+        }
+
+        .footer-quote span {
+            color: #111111;
+            font-weight: 500;
+        }
+
+        /* ================= 移动端响应式适配 ================= */
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 15px 60px;
+            }
+            .main-title {
+                font-size: 2.2rem;
+                letter-spacing: 2px;
+            }
+            .sub-title {
+                font-size: 1.1rem;
+            }
+            .date-location {
+                font-size: 0.9rem;
+            }
+            .section-heading {
+                font-size: 1.3rem;
+                margin-bottom: 40px;
+            }
+            .day-title {
+                font-size: 1.15rem;
+                margin-bottom: 20px;
+            }
+            .course-list li {
+                font-size: 0.95rem;
+                margin-bottom: 10px;
+            }
+            .footer-quote p {
+                font-size: 1rem;
+                line-height: 1.8;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    
+    <!-- 顶部标题 -->
+    <div class="header-section">
+        <div class="logos">源流AI教育 &nbsp;|&nbsp; 智统引擎</div>
+        <h1 class="main-title">AI觉醒 极致效能</h1>
+        <h2 class="sub-title">企业AI落地实战营</h2>
+        <div class="date-location">— 10.10-12 &nbsp;广西·南宁 —</div>
+    </div>
+
+    <!-- 课程内容安排 -->
+    <div class="section-heading">课程内容安排</div>
+
+    <!-- 第一天 -->
+    <div class="day-block">
+        <h3 class="day-title">第一天 &nbsp; AI经营认知和准备</h3>
+        <ul class="course-list">
+            <li>AI发挥效能的五个重要准备工作</li>
+            <li>诊断企业/个人经营增长面临的真正底层问题</li>
+            <li>AI重构完整的经营链路</li>
+        </ul>
+        <!-- 图片中原有的小分组，不画框，仅用留白区分 -->
+        <ul class="course-list sub-group">
+            <li>企业 AI 数字员工</li>
+            <li>现场实操 搭建企业/经营 AI自动化工作流</li>
+            <li>AI CEO的角色功能和决策逻辑</li>
+        </ul>
+    </div>
+
+    <!-- 第二天 -->
+    <div class="day-block">
+        <h3 class="day-title">第二天 &nbsp; AI经营增长和落地</h3>
+        <ul class="course-list">
+            <li>快速掌握成功使用AI的六大技巧</li>
+            <li>AI营销增长 — 实战型AI营销链路建立</li>
+            <li>AI营销增长 — 实战型AI短视频获客</li>
+            <li>AI营销增长 — 成交和私域管理</li>
+            <li>AI营销增长 — 客户触达和客户管理</li>
+            <li>AI营销增长 — AI构建流量模型和增长模型</li>
+            <li>AI营销增长 — 品牌重构和品牌增长</li>
+        </ul>
+    </div>
+
+    <!-- 第三天 -->
+    <div class="day-block">
+        <h3 class="day-title">第三天 &nbsp; AI经营实战和团队协作</h3>
+        <ul class="course-list">
+            <li>AI工具现场实操，结果验证</li>
+            <li>AI增长经典案例分享及解析、复制</li>
+            <li>多角色团队协同</li>
+            <li>企业/经营 AI流程复盘落地</li>
+            <li>个人AI定制化定位</li>
+        </ul>
+    </div>
+
+    <!-- 底部结语 -->
+    <div class="footer-quote">
+        <p>AI的意义 — 是<span>如何用好它</span>，产生优质生产力</p>
+    </div>
+
+</div>
+
+</body>
+</html>
